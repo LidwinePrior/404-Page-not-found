@@ -4,6 +4,7 @@ body {
     height:auto;
     background-color:azure;
     color:blueviolet;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header {
     height: 200px;
@@ -12,6 +13,12 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
+    transition: color 2s ease-in;
+    animation: colorchange 1s ease-in 1s infinite alternate;
+}
+@keyframes colorchange {
+    from {color: azure;}
+    to {color:blueviolet;}
 }
 .container {
     display: flex;
