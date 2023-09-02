@@ -4,7 +4,7 @@ Creation of a 404 page.
 
 [Page 404](https://lidwineprior.github.io/404-Page-not-found)
 
-## Authors
+## Author
 
 - [@LidwinePrior](https://github.com/LidwinePrior)
 
